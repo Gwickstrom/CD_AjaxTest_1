@@ -1,0 +1,186 @@
+@import url('normalize.css');
+body {
+    background-color: #222;
+    color: #eee;
+    margin: 10px;
+}
+.menus h2 {
+    display: none;
+}
+.menu_groups h3 {
+    display: none;
+}
+.menu_items {
+
+}
+.menu_item_options {
+    /*display: none;*/
+}
+.option_choices {
+    /*display: none;*/
+}
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#filter {
+
+}
+#header {
+
+}
+#menus {
+    font-size: 28px;
+}
+#menu ul, #groups ul {
+    margin: 0;
+
+}
+#menus li {
+    display: inline;
+    padding: 16px;
+    border-right: 1px solid #eee;
+    margin-left: -8px;
+    background-color: #00669B;
+}
+#menus li:last-child, #groups li:last-child {
+    border-right: none;
+}
+
+#groups li {
+    display: inline;
+    padding: 13px;
+    border-right: 1px solid #eee;
+    margin-left: -5px;
+    background-color: #ddd;
+}
+#menus li:hover {
+    background-color: #1B81C7;
+}
+#groups li:hover {
+    background-color: #ccc;
+}
+#groups {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #00669B;
+}
+#venue {
+    width: 70%;
+    background-color: #ddd;
+}
+.menuBox {
+    width:240px;
+    height: 80px;
+    background-color: #eee;
+    color: #111;
+    padding: 4px;
+    margin: 10px;
+}
+.menuBox button {
+    font-size: 12px;
+}
+.menuBox button:hover {
+    background-color: #1B81C7;
+}
+#items {
+
+}
+.itemImage {
+    display: none;
+}
+.itemText {
+    width:65%;
+    padding: 0 3px;
+    overflow: hidden;
+}
+.menu_item_name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.menu_item_description {
+    font-size: 10px;
+}
+.menu_item_price {
+    font-size: 15px;
+}
+.itemPrice {
+    text-align: right;
+    width: 29%;
+}
+
+
+#orderBox {
+
+}
+#checkoutBox {
+    height: 70%;
+    width: 29%;
+    background-color: #fff;
+}
+#checkoutFooter {
+    bottom: 0;
+    background-color: #666;
+    height: 10%;
+}
+.itemBox {
+    width: 100%;
+    background-color: #eee;
+}
+button {
+    border: 0;
+    padding: 5px;
+    background-color: #00669B;
+    color: #fff;
+    bottom: 0;
+    margin-bottom: 0;
+    width:100%;
+}
+.hidden {
+    display: none;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(100,0,00); /* Fallback color */
+    background-color: rgba(10,40,80,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color:#F34907 ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    color: white;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
